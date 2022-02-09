@@ -1,26 +1,26 @@
 # Project information
-site_name: "GOFR Documentation"
-site_description: "GOFR Documentation"
-site_author: "IntraHealth"
-site_url: "https://github.com/intrahealth/gofr"
+site_name: 'GOFR Documentation'
+site_description: 'GOFR Documentation'
+site_author: 'IntraHealth'
+site_url: 'https://github.com/intrahealth/gofr'
 
 # Repository
-repo_name: "intrahealth/gofr"
-repo_url: "https://github.com/intrahealth/gofr"
+repo_name: 'intrahealth/gofr'
+repo_url: 'https://github.com/intrahealth/gofr'
 
 # Copyright
-copyright: "Copyright &copy; 2021 IntraHealth International"
+copyright: 'Copyright &copy; 2022 IntraHealth International'
 
 # Theme
 theme:
-  name: "material"
+  name: 'material'
   palette:
-    primary: "Noto Sans HK"
-    accent: "indigo"
-  language: "en"
+    primary: 'Noto Sans HK'
+    accent: 'indigo'
+  language: 'en'
   font:
-    text: "Roboto"
-    code: "Monaco"
+    text: 'Roboto'
+    code: 'Monaco'
   features:
     - navigation.expand
     # - navigation.tabs
@@ -28,22 +28,21 @@ theme:
 
 nav:
   - Welcome to GOFR!:
-    - 'index.md'
+      - 'index.md'
   - Getting started:
-    - 'getting_started/getting_started.md'
+      - 'getting_started/getting_started.md'
   - Working with FHIR:
-    - 'working_with_fhir/working_with_fhir.md'
-    - 'working_with_fhir/mcsd.md'
+      - 'working_with_fhir/working_with_fhir.md'
+      - 'working_with_fhir/mcsd.md'
   - Server administration:
-    - 'server_administration/server_administration.md'
+      - 'server_administration/server_administration.md'
   - User Guide:
-    - 'user_guide/introduction.md'
-    - 'user_guide/facility_reconciliation.md'
-    - 'user_guide/facility_registry.md'
-    - 'user_guide/usersandsharing.md'
-    - 'user_guide/configure_system.md'
+      - 'user_guide/introduction.md'
+      - 'user_guide/facility_reconciliation.md'
+      - 'user_guide/facility_registry.md'
+      - 'user_guide/usersandsharing.md'
+      - 'user_guide/configure_system.md'
 
-    
 markdown_extensions:
   - admonition
   - footnotes
@@ -53,13 +52,12 @@ markdown_extensions:
   - codehilite:
       guess_lang: false
   - toc:
-      toc_depth : "1"
+      toc_depth: '1'
       permalink: true
-  
 
 # https://github.com/zhaoterryy/mkdocs-pdf-export-plugin not working
 plugins:
-  - mkdocs-video
+  - mkdocs-video:
   - search
   - git-revision-date-localized
   #- mknotebooks
@@ -70,8 +68,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/intrahealth/gofr
-
-
 # theme:
 # logo: 'images/logo.png' must be 128x128
 # logo:

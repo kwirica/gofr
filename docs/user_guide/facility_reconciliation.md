@@ -25,6 +25,8 @@ The CSV file should have columns names in the first row of the file. Empty lines
 
 Latitude and longitude are optional columns. If they are included they will be used to facilitate manual matching but they are not used or required for automatic matching.
 
+![type:video](../video/Upload_CSV_gofr.mp4)
+
 **To upload a CSV:**
 
 Select Data Sources -> Add Data Sources -> Select Upload CSV -> Select a file and enter the file name -> Continue

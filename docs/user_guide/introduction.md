@@ -36,14 +36,24 @@ Once you successfully log in to the system, the dashboard appears:
 
 ### Active Reconciliation Pair
 
+This show the pair of data sources which have been activated. 
+
 ### Active Partition Stats
+
+These are the various key points to note under the active partion for the logged in user
+
 
 ### Language
 
+This feature allows users to select the language to be used in the system among the various options
+
 ### Map Visualization
+
+Map visialization displays the facilities in the active partition on a map
 
 ### Tabular Visualization
 
+Tabular Visualization displays the facilities in the active partition in a list/ tabular form
 ## Logging Out
 
 To log out of the GOFR system:
